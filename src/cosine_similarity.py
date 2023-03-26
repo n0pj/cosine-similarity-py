@@ -104,3 +104,6 @@ class CosineSimilarity:
 
         for i, (pair, similarity) in enumerate(ranked_similarities):
             print(f"{i+1}. 車両{pair[0]}と車両{pair[1]}の類似度：{similarity}")
+
+    def many_to_one(self):
+        pass
